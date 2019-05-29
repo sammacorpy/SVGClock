@@ -18,17 +18,18 @@ body{
 }
 #second{
     transform-origin: 265.99px 249.98px;  
-    animation: secondrot 0.8s infinite;
+    animation: secondrot 1.5s infinite ease-in-out;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    /* animation-timing-function: linear; */
+
+}
+#timering{
+    transform-origin: 265.36158752441406px 250.17584228515625px;  
+    animation: innerrot 2s infinite;
     animation-direction: normal;
     animation-fill-mode: forwards;
     animation-timing-function: linear;
-}
-#timering{
-    /* transform-origin: 265.36158752441406px 250.17584228515625px;  
-    animation: secondrot 3s infinite;
-    animation-direction: normal;
-    animation-fill-mode: forwards;
-    animation-timing-function: linear; */
 }
 
 #secondrim{
@@ -56,5 +57,17 @@ body{
     100%{
         
         transform: rotate(360deg);
+    }
+}
+
+@keyframes innerrot{
+    0%{
+        
+        transform: rotate(0deg);
+
+    }
+    100%{
+        
+        transform: rotate(-360deg);
     }
 }

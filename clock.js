@@ -27,7 +27,7 @@ function runclock(){
     se.style.strokeDashoffset=-1186.996-t.s*19.783266667;
 
     requestAnimationFrame(runclock);
-
+    
 
 }
 
