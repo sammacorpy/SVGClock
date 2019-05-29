@@ -1,0 +1,49 @@
+# SVGClock
+Beautiful summer design for digital clock
+
+# HTML
+
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="stylesheet" href="./clock.css">
+        </style>
+    </head>
+
+    <body>
+
+        <svg  width="530" height="501" id="clock">
+            <ellipse cx="328.97441295075447" cy="184.5721170823108" rx="146" ry="146" fill="none"
+                stroke="#999" stroke-width="15" stroke-linecap="butt" stroke-linejoin="miter" opacity="1"
+                transform="matrix(1 0 0 1 -64.0284 65.5801)" id="mainrim" >
+
+            </ellipse>
+            <ellipse cx="328.97441295075447" cy="184.5721170823108" rx="187" ry="187" fill="none"
+                stroke="#ccc" stroke-width="18.5" stroke-linecap="butt" stroke-linejoin="miter" opacity="1"
+                transform="matrix(1 0 0 1 -64.0284 65.5801)" id="secondrim" >
+
+            </ellipse>
+            <ellipse cx="265.999" cy="249.99848907470703" rx="220" ry="220" fill="none"
+                stroke="rgba(148,148,148,1)" stroke-width="50" stroke-linecap="butt" stroke-linejoin="miter" opacity="1"
+                transform="matrix(1 0 0 1 -3.04152 -3.61507)" stroke-dasharray="350" stroke-dashoffset="189" id="second"
+                class="second"></ellipse>
+            <ellipse cx="265.36158752441406" cy="250.17584228515625" rx="110" ry="110" fill="none"
+                stroke="rgba(0,182,182,1)" stroke-width="30" stroke-dasharray="28.5" stroke-linecap="butt"
+                stroke-linejoin="round" opacity="1"  stroke-dashoffset="15"
+                id="timering" class="innermost">
+                <title>showtime</title>
+            </ellipse>
+            <ellipse cx="305.39882531398143" cy="286.5577312876722" rx="165" ry="165" fill="none" stroke="rgba(4,4,87,1)"
+                stroke-width="25" stroke-dasharray="0" stroke-linecap="butt" stroke-linejoin="round" opacity="1"
+                transform="matrix(1 0 0 1 -40.1908 -36.4144)" selected="true" id = "minute"></ellipse>
+        </svg>
+
+    </body>
+    <script src="./clock.js"></script>
+
+    </html>
