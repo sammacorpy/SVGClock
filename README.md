@@ -1,6 +1,8 @@
 # SVGClock
 Beautiful summer design for digital clock
 
+
+click [here](https://sammacorpy.github.io/SVGClock/clock.html) for demo
 # HTML
 
     <!DOCTYPE html>
